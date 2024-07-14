@@ -16,6 +16,8 @@ public class evenOrOdd {
         else
             System.out.print("The interger is odd");
 
+        scanner.close();
+
 
     }
     

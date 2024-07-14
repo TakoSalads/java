@@ -21,6 +21,8 @@ public class vowelOrConsonant {
         }
         else {
             System.out.print("Your letter is a consonant");
+
         }
+        scanner.close();
     }
 }
