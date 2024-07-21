@@ -12,6 +12,10 @@ public class Shape {
         this.y = y;
     }
 
+    //draw the circle (polymorphism in draw() between shape and circle)
+    public void draw() {
+        System.out.print("Drawing circle at (" + x + ", " + y + ") \n");
+    }
 
     //"Moving the circle"
     public void moveCircle(int x2, int y2) {
